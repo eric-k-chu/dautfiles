@@ -9,9 +9,15 @@ eval "$(zoxide init bash)"
 
 alias hx='helix'
 alias cd="z"
-
-export EDITOR=helix
-
 alias gg='git add . && git com sync'
-
 alias bg='git fclean && git clean -fd'
+alias claer="clear"
+alias caler="clear"
+alias caerl="clear"
+alias celar="clear"
+alias cealr="clear"
+
+alias cm='chezmoi'
+alias cma='chezmoi add'
+alias cmap='chezmoi apply'
+alias cmcd='chezmoi cd'
