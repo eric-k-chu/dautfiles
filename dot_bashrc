@@ -10,6 +10,6 @@ alias hx='helix'
 
 export EDITOR=helix
 
-alias gg='git add . && git com \"sync\"'
+alias gg='git add . && git com sync'
 
 alias bg='git fclean && git clean -fd'
