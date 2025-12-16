@@ -8,6 +8,7 @@ eval "$(starship init bash)"
 eval "$(zoxide init bash)"
 
 alias hx='helix'
+alias cd="z"
 
 export EDITOR=helix
 
