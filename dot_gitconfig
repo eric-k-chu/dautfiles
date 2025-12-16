@@ -1,0 +1,29 @@
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[user]
+	email = kiyuen88ec@gmail.com
+	name = Eric Chu
+[alias]
+	br = branch
+	sw = switch
+	swc = switch -c
+	brm = branch -m
+	brd = branch -D
+	pl = pull origin
+	plm = pull origin main
+	plma = pull origin master
+	rbm = rebase main
+	rbma = rebase master
+	com = commit -m
+	psh = push origin
+	up = push origin -f
+	undo = reset HEAD~
+	fclean = reset --hard HEAD
+	fa = fetch --all
+	aa = add .
+	wta = worktree add
+	wtr = worktree remove

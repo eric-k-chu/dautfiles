@@ -1,8 +1,3 @@
-#
-# ~/.bashrc
-#
-
-# If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
 alias ls='ls --color=auto'
@@ -11,6 +6,10 @@ PS1='[\u@\h \W]\$ '
 
 eval "$(starship init bash)"
 
-alias hx="helix"
+alias hx='helix'
 
 export EDITOR=helix
+
+alias gg='git add . && git com \"sync\"'
+
+alias bg='git fclean && git clean -fd'
